@@ -1,0 +1,68 @@
+
+:root {
+    --first-color: #334AA9;
+    --second-color:#1ED760;
+    --third-color:#6C89FF;
+    --font-size: 10px;
+    --font-family:'Circular', sans-serif;
+
+  }
+
+body{
+    background-image:url(./Grove\ On.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Circular', sans-serif;
+    overflow-x: hidden;
+
+
+    
+} 
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.header img{
+    width: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.card_1 img{
+    width: 40%;
+    margin-left: 50em;
+    clip-path: polygon(10% 0, 90% 0, 90% 100%, 10% 100%);
+}
+.oval-button {
+    font-family: var(--font-family);
+    width: 40em;
+    height: 7em;
+    background-color: var(--second-color); 
+    color: black; 
+    text-align: center;
+    border-radius: 120px;
+    font-weight: bold;
+    font-size: var(--font-size);
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    
+}
+.oval-button span{
+    padding: 6%;
+    margin-top:5rem;
+    font-family: var(--font-family);
+    color: black;
+    font-size: 6em;
+
+}
+
+
+
+
