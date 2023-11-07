@@ -60,5 +60,11 @@ h2{
 @media (max-width: 768px) {
     .card {
         width: 100%; 
+        
+    }
+    .card img{
+        width: 100% !important;
+        height: auto !important;
+        max-width: 200px;
     }
 }
